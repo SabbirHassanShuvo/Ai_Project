@@ -1,0 +1,49 @@
+# AI Models & Weights Directories
+AiModel/
+model/
+models/
+
+# Hugging Face & Model Caches
+.cache/
+huggingface/
+
+# Model Weight Files & Large Checkpoints
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.h5
+*.tflite
+*.gguf
+*.ggml
+*.joblib
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment Variables & Secrets
+.env
+.env.*
+*.token
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
