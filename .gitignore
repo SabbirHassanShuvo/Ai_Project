@@ -1,6 +1,6 @@
 # AI Models & Weights Directories
-AiModel/
-model/
+AiModel
+model
 models/
 
 # Hugging Face & Model Caches
