@@ -40,6 +40,9 @@ def chat(req:ChatRequest):
         max_new_tokens=128
     )
 
+
+	# we can finshed properly 
+
     # Output Token ->>>>>> Output Text 
     result = tokenizer.decode(OutputToken[0][InputToken['input_ids'].shape[-1]:],skip_special_tokens=True)
 
